@@ -1,0 +1,28 @@
+{
+  "name": "cf-pi-durable-objects",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "vite build && vite preview --port 8787",
+    "dev": "vite dev --port 8787",
+    "try": "node try.mjs"
+  },
+  "dependencies": {
+    "@earendil-works/pi-ai": "1.2.0",
+    "@earendil-works/pi-durable": "1.2.0",
+    "@sentry/cloudflare": "11.9.0",
+    "agents": "0.26.0"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "1.57.2",
+    "@cloudflare/workers-types": "^4.20260426.0",
+    "typescript": "^5.5.2",
+    "vite": "7.3.5",
+    "wrangler": "^4.136.2"
+  },
+  "packageManager": "pnpm@12.11.2",
+  "volta": {
+    "node": "22.18.0",
+    "pnpm": "10.30.2"
+  }
+}
